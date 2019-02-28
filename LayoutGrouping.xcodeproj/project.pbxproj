@@ -55,6 +55,7 @@
 		61D70E0E22275F2200B40BFB /* UIViewSubviewAutoLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewSubviewAutoLayoutTests.swift; sourceTree = "<group>"; };
 		61D70E10222760C100B40BFB /* UIEdgeInsetsInitializersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEdgeInsetsInitializersTests.swift; sourceTree = "<group>"; };
 		61D70E122227646E00B40BFB /* UIOffsetInitializersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOffsetInitializersTests.swift; sourceTree = "<group>"; };
+		61D70E1422276E9200B40BFB /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		610E760E2224D33D00614FA0 = {
 			isa = PBXGroup;
 			children = (
+				61D70E1422276E9200B40BFB /* LICENSE.md */,
 				610E761A2224D33D00614FA0 /* LayoutGrouping */,
 				610E76252224D33D00614FA0 /* LayoutGroupingTests */,
 			);
