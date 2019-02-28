@@ -1,5 +1,5 @@
 language: swift
 osx_image: xcode10.1
 xcode_project: LayoutGrouping.xcodeproj
-xcode_scheme: LayoutGroupingTests
+xcode_scheme: LayoutGrouping
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
