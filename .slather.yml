@@ -1,0 +1,7 @@
+# .slather.yml
+
+coverage_service: coveralls
+xcodeproj: LayoutGrouping.xcodeproj
+scheme: LayoutGrouping
+ignore:
+  - LayoutGroupingTests/*
