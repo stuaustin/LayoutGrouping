@@ -36,7 +36,7 @@ public extension UIView {
         If true, `translatesAutoresizingMaskIntoConstraints` is set to false on the `view` parameter.
         If false, `translatesAutoresizingMaskIntoConstraints` is set to true on the `view` parameter.
      */
-    public func addSubview(_ view: UIView, useAutoLayout: Bool) {
+    func addSubview(_ view: UIView, useAutoLayout: Bool) {
         addSubview(view)
         view.translatesAutoresizingMaskIntoConstraints = !useAutoLayout
     }
@@ -50,7 +50,7 @@ public extension UIView {
      If true, `translatesAutoresizingMaskIntoConstraints` is set to false on the `view` parameter.
      If false, `translatesAutoresizingMaskIntoConstraints` is set to true on the `view` parameter.
      */
-    public func insertSubview(_ view: UIView, belowSubview siblingSubview: UIView, useAutoLayout: Bool) {
+    func insertSubview(_ view: UIView, belowSubview siblingSubview: UIView, useAutoLayout: Bool) {
         insertSubview(view, belowSubview: siblingSubview)
         view.translatesAutoresizingMaskIntoConstraints = !useAutoLayout
     }
@@ -63,7 +63,7 @@ public extension UIView {
      If true, `translatesAutoresizingMaskIntoConstraints` is set to false on the `view` parameter.
      If false, `translatesAutoresizingMaskIntoConstraints` is set to true on the `view` parameter.
      */
-    public func insertSubview(_ view: UIView, aboveSubview siblingSubview: UIView, useAutoLayout: Bool) {
+    func insertSubview(_ view: UIView, aboveSubview siblingSubview: UIView, useAutoLayout: Bool) {
         insertSubview(view, aboveSubview: siblingSubview)
         view.translatesAutoresizingMaskIntoConstraints = !useAutoLayout
     }

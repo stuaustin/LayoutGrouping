@@ -162,7 +162,7 @@ public struct BoxLayoutAnchor {
 
 public extension PositionableLayoutItem {
     /// Layout anchor representing the top, bottom, leading, and trailing anchors
-    public var boxAnchor: BoxLayoutAnchor {
+    var boxAnchor: BoxLayoutAnchor {
         return BoxLayoutAnchor(top: topAnchor,
                                bottom: bottomAnchor,
                                leading: leadingAnchor,

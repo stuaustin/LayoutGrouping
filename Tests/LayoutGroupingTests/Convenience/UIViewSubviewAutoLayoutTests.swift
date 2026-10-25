@@ -55,12 +55,12 @@ class UIViewSubviewAutoLayoutTests: XCTestCase {
         view.insertSubview(subview, belowSubview: siblingSubview, useAutoLayout: true)
         XCTAssert(!subview.translatesAutoresizingMaskIntoConstraints,
                   "Wrong translatesAutoresizingMaskIntoConstraints value")
-        XCTAssert(view.subviews.index(of: subview) == 1, "Wrong subview position")
+        XCTAssert(view.subviews.firstIndex(of: subview) == 1, "Wrong subview position")
 
         view.insertSubview(subview, belowSubview: siblingSubview, useAutoLayout: false)
         XCTAssert(subview.translatesAutoresizingMaskIntoConstraints,
                   "Wrong translatesAutoresizingMaskIntoConstraints value")
-        XCTAssert(view.subviews.index(of: subview) == 1, "Wrong subview position")
+        XCTAssert(view.subviews.firstIndex(of: subview) == 1, "Wrong subview position")
     }
 
     func testInsertAboveSubview() {
@@ -79,11 +79,11 @@ class UIViewSubviewAutoLayoutTests: XCTestCase {
         view.insertSubview(subview, aboveSubview: siblingSubview, useAutoLayout: true)
         XCTAssert(!subview.translatesAutoresizingMaskIntoConstraints,
                   "Wrong translatesAutoresizingMaskIntoConstraints value")
-        XCTAssert(view.subviews.index(of: subview) == 2, "Wrong subview position")
+        XCTAssert(view.subviews.firstIndex(of: subview) == 2, "Wrong subview position")
 
         view.insertSubview(subview, aboveSubview: siblingSubview, useAutoLayout: false)
         XCTAssert(subview.translatesAutoresizingMaskIntoConstraints,
                   "Wrong translatesAutoresizingMaskIntoConstraints value")
-        XCTAssert(view.subviews.index(of: subview) == 2, "Wrong subview position")
+        XCTAssert(view.subviews.firstIndex(of: subview) == 2, "Wrong subview position")
     }
 }

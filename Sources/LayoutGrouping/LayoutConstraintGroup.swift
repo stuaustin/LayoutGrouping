@@ -61,7 +61,7 @@ public extension NSLayoutConstraint {
      - Parameter priority: Optionally specify the priority of all constraints that get activated.
                            This is just for convenience.
      */
-    public class func activate(_ constraints: [LayoutConstraintGroup], priority: UILayoutPriority? = nil) {
+    class func activate(_ constraints: [LayoutConstraintGroup], priority: UILayoutPriority? = nil) {
         let constraintsArray: [NSLayoutConstraint] = Array(constraints.map { $0.layoutConstraintArray() }.joined())
         if let priority = priority {
             constraintsArray.forEach { $0.priority = priority }
@@ -74,7 +74,7 @@ public extension NSLayoutConstraint {
 
      - Parameter constraints: The collection of constraint groups to be deactivated
      */
-    public class func deactivate(_ constraints: [LayoutConstraintGroup]) {
+    class func deactivate(_ constraints: [LayoutConstraintGroup]) {
         let constraintsArray: [NSLayoutConstraint] = Array(constraints.map { $0.layoutConstraintArray() }.joined())
         NSLayoutConstraint.deactivate(constraintsArray)
     }

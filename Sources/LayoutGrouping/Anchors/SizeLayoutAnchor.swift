@@ -99,7 +99,7 @@ public struct SizeLayoutAnchor {
 
 public extension SizeableLayoutItem {
     /// Layout anchor representing both the width and height of this object
-    public var sizeAnchor: SizeLayoutAnchor {
+    var sizeAnchor: SizeLayoutAnchor {
         return SizeLayoutAnchor(width: widthAnchor, height: heightAnchor)
     }
 }

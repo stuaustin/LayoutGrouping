@@ -109,77 +109,77 @@ public struct PositionLayoutAnchor {
 
 public extension PositionableLayoutItem {
     /// Layout anchor representing both the top and left anchors of this object
-    public var topLeftAnchor: PositionLayoutAnchor {
+    var topLeftAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: leftAnchor, vertical: topAnchor)
     }
 
     /// Layout anchor representing both the top and right anchors of this object
-    public var topRightAnchor: PositionLayoutAnchor {
+    var topRightAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: rightAnchor, vertical: topAnchor)
     }
 
     /// Layout anchor representing both the top and leading anchors of this object
-    public var topLeadingAnchor: PositionLayoutAnchor {
+    var topLeadingAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: leadingAnchor, vertical: topAnchor)
     }
 
     /// Layout anchor representing both the top and trailing anchors of this object
-    public var topTrailingAnchor: PositionLayoutAnchor {
+    var topTrailingAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: trailingAnchor, vertical: topAnchor)
     }
 
     /// Layout anchor representing both the top and horizontal center anchors of this object
-    public var topCenterXAnchor: PositionLayoutAnchor {
+    var topCenterXAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: centerXAnchor, vertical: topAnchor)
     }
 
     /// Layout anchor representing both the bottom and left anchors of this object
-    public var bottomLeftAnchor: PositionLayoutAnchor {
+    var bottomLeftAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: leftAnchor, vertical: bottomAnchor)
     }
 
     /// Layout anchor representing both the bottom and right anchors of this object
-    public var bottomRightAnchor: PositionLayoutAnchor {
+    var bottomRightAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: rightAnchor, vertical: bottomAnchor)
     }
 
     /// Layout anchor representing both the bottom and leading anchors of this object
-    public var bottomLeadingAnchor: PositionLayoutAnchor {
+    var bottomLeadingAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: leadingAnchor, vertical: bottomAnchor)
     }
 
     /// Layout anchor representing both the bottom and trailing anchors of this object
-    public var bottomTrailingAnchor: PositionLayoutAnchor {
+    var bottomTrailingAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: trailingAnchor, vertical: bottomAnchor)
     }
 
     /// Layout anchor representing both the bottom and horiziontal center anchors of this object
-    public var bottomCenterXAnchor: PositionLayoutAnchor {
+    var bottomCenterXAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: centerXAnchor, vertical: bottomAnchor)
     }
 
     /// Layout anchor representing both the vertical center and left anchors of this object
-    public var centerYLeftAnchor: PositionLayoutAnchor {
+    var centerYLeftAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: leftAnchor, vertical: centerYAnchor)
     }
 
     /// Layout anchor representing both the vertical center and right anchors of this object
-    public var centerYRightAnchor: PositionLayoutAnchor {
+    var centerYRightAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: rightAnchor, vertical: centerYAnchor)
     }
 
     /// Layout anchor representing both the vertical center and leading anchors of this object
-    public var centerYLeadingAnchor: PositionLayoutAnchor {
+    var centerYLeadingAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: leadingAnchor, vertical: centerYAnchor)
     }
 
     /// Layout anchor representing both the vertical center and trailing anchors of this object
-    public var centerYTrailingAnchor: PositionLayoutAnchor {
+    var centerYTrailingAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: trailingAnchor, vertical: centerYAnchor)
     }
 
     /// Layout anchor representing both the vertical center and horizontal center anchors of this object
-    public var centerYCenterXAnchor: PositionLayoutAnchor {
+    var centerYCenterXAnchor: PositionLayoutAnchor {
         return PositionLayoutAnchor(horizontal: centerXAnchor, vertical: centerYAnchor)
     }
 }
